@@ -34,7 +34,6 @@ void ACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 }
 
-
 void ACharacterBase::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
@@ -46,7 +45,6 @@ void ACharacterBase::PossessedBy(AController* NewController)
 
 	SetOwner(NewController);
 }
-
 
 void ACharacterBase::ServerInteract_Implementation(AActor* HitActor, ACharacter* Interactor)
 {

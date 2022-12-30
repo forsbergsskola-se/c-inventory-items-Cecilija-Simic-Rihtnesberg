@@ -4,11 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "Navigation/PathFollowingComponent.h"
-#include "GP_PathFollowingComponent.generated.h"
+
 
 
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
-class UNREALGP_API UGP_PathFollowingComponent : public UPathFollowingComponent{
+class UNREALGP_API UGP_PathFollowingComponent : public UPathFollowingComponent
+
+	// ReSharper disable once UnrealHeaderToolError
+{
 	GENERATED_BODY()
 
 public:

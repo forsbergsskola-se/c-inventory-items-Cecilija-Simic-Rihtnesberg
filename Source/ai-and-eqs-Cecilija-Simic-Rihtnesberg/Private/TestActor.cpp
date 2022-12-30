@@ -5,6 +5,7 @@
 
 #include "GP_PathFollowingComponent.h"
 
+class UGP_PathFollowingComponent;
 // Sets default values
 ATestActor::ATestActor()
 {
