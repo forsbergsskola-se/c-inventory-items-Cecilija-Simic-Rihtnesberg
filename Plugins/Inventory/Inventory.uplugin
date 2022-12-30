@@ -13,13 +13,5 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false,
-
-	"Modules": [
-		{
-			"Name": "Inventory",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+	"Installed": false
 }
