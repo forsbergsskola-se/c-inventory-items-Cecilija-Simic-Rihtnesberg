@@ -6,25 +6,20 @@
 #include "AIController.h"
 #include "TestActor.generated.h"
 
-
 UCLASS()
-class AIANDAQS_API ATestActor : public AAIController
+class UNREALGP_API ATestActor : public AAIController
 {
 	GENERATED_BODY()
-	
+
 public:
-	
 	// Sets default values for this actor's properties
 	ATestActor();
 	ATestActor(const FObjectInitializer& ObjectInitializer);
-
-
+	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
-protected:
+	
+protected:	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
-
 };
